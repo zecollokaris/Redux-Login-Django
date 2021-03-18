@@ -1,5 +1,7 @@
 # <p align="center"> DJANGO LOGIN <p>
 
+
+
 # DESCRIPTION
 
 A Simple Django Application Providing User Registration Functionality using Redux Registration Process for Django Websites.
@@ -9,6 +11,18 @@ A Simple Django Application Providing User Registration Functionality using Redu
 Redux is a predictable state container designed to help you build apps that behave consistently across client, server, and native environments and are easy to test.
 
 Redux implements many performance optimizations internally so that your own connected component only rerenders when it actually needs to.
+
+# DISPLAY
+
+<p align="center">
+<img align="left" width="350" src="Spec.md/admin.png" alt="Admin Page" />
+<img align="center" width="350" src="Spec.md/login.png" alt="Login Page" />
+<img align="right" width="350" src="Spec.md/reset.png" alt="Reset Password Page" />
+<p>
+
+<p align="center">
+<img width="400"  align="centre" src="Spec.md/home.png" alt="home page" />
+<p>
 
 # SET UP
 
