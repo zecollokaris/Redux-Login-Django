@@ -1,4 +1,4 @@
-# <p align="center"> DJANGO LOGIN <p>
+# <p align="center"> :key: DJANGO LOGIN <p>
 
 
 
@@ -14,15 +14,30 @@ Redux implements many performance optimizations internally so that your own conn
 
 # DISPLAY
 
-<p align="center">
-<img align="left" width="350" src="Spec.md/admin.png" alt="Admin Page" />
-<img align="center" width="350" src="Spec.md/login.png" alt="Login Page" />
-<img align="right" width="350" src="Spec.md/reset.png" alt="Reset Password Page" />
-<p>
+## Admin Page
 
 <p align="center">
-<img width="400"  align="centre" src="Spec.md/home.png" alt="home page" />
+<img align="centre" src="Spec.md/admin.png" alt="Admin Page" />
 <p>
+
+## Login Page
+
+<p align="center">
+<img align="centre" src="Spec.md/login.png" alt="Login Page" />
+<p>
+
+## Reset Password Page
+
+<p align="center">
+<img align="centre" src="Spec.md/reset.png" alt="Reset Password Page" />
+<p>
+
+## Home Page
+
+<p align="center">
+<img align="centre" src="Spec.md/home.png" alt="Home Page" />
+<p>
+
 
 # SET UP
 
