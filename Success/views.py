@@ -1,4 +1,6 @@
-from django.shortcuts import render
+from django.shortcuts import render, redirect
+
+
 
 #---------------------------------------------------------------------#
 '''End Of Import'''
@@ -16,8 +18,8 @@ from django.shortcuts import render
 def index(request):
 	title = 'Welcome: This is the Home Page'
 	context = {
-	"title": title,
-	    }
+	    "title": title,
+	}
 	return render(request, "Success/index.html",context)
 
 #################################################################################################################################################################################
