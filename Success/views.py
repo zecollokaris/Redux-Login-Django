@@ -1,7 +1,7 @@
 from django.shortcuts import render, redirect
 
 
-
+from django.contrib.auth.decorators import login_required
 #---------------------------------------------------------------------#
 '''End Of Import'''
 #---------------------------------------------------------------------#
@@ -15,6 +15,7 @@ from django.shortcuts import render, redirect
 #################################################################################################################################################################################
 
 #Home page view function
+@login_required
 def index(request):
 	title = 'Welcome: This is the Home Page'
 	context = {
