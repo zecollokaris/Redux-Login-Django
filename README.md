@@ -155,26 +155,63 @@ This restricts site to unauthenticated users and redirects them to login page wh
 
     Logout URL is: ```/accounts/logout```
 
-# Prerequisites
+#  PREREQUISITES
 
-# Setup/Installation Reqiurements.
+- You need to have nano text editor installed. you can find out whether you have it installed by typing nano --version in your terminal. For most linux distributions, it is installed by default. However, if you don't have it installed, you can quicky do that by typing sudo apt-get install nano in your terminal.
+
+- You need to have (python3.8) installed in your machine
+
+- Python3.8. Installation ($ sudo apt-get install python3.8).
+
+- Django3.17. Installation ($ pip install django==3.17).
+
+- Psycopg2. Installation ($ pip install psycopg2).
+
+- Bootstrap4. Installation ($ pip install django-bootstrap4).
+
+
+# SETUP/INSTALLATION REQUIREMENTS.
+
+- Internet connection
+
+- webpage URL:
+
+- To get to this webpage fist you need to get to my github repository
+
+- The link to my github Repository is: https://github.com/zecollokaris
+
+- from there you can access the project
+
+- git clone project.
+
+- install dependancies in requirements.txt file ```$ pip install -r requirements.txt```
+
+- cd into project
+
+- create a virtual environment ```$ python3.6 -m venv virtual```
+
+- Activate Virtual Environmrnt. ```$ source virtual/bin/activate```
+
+- Run The Project-: ```$ python manage.py runserver```
+
 **{follow the below instructions for set up.}**
 
-# Technologies Used
+# TECHNOLOGIES USED
+- HTML5 
 
-# Support and Contact
+- CSS
 
--Mobile number: (+254) 798731203
+- Bootstarap
 
--Email Address: collo.kariss@gmail.com
+- Python3.8
 
--github-username: zecollokaris
+- Django 3.1.7
 
-## License
+- Psycopg2 
 
-The app is licensed by MIT.
+- PostgreSQL
 
-Collins Kariuki - MIT (c)2018 LICENSE
+
 
 
 
