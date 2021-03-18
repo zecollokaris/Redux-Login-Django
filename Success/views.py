@@ -29,6 +29,6 @@ def index(request):
 
 #Registration & Login page view function
 def login(request):
-    return render(request, 'Registration/login.html')
+    return render(request, 'login.html')
 
 #################################################################################################################################################################################
