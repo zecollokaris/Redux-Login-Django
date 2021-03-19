@@ -8,6 +8,8 @@ https://docs.djangoproject.com/en/3.1/ref/settings/
 """
 
 import os
+import django_heroku
+from decouple import config
 from pathlib import Path
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
@@ -18,10 +20,10 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/3.1/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = '&z9yaki6^*-kmxxw)q@%&5s8(b=&=e04%-pb7vs8ne&bwh9#m0'
+SECRET_KEY = config('SECRET_KEY') 
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = config('DEBUG', default=False, cast=bool) 
 
 ALLOWED_HOSTS = []
 
@@ -41,7 +43,7 @@ INSTALLED_APPS = [
     'Login',
 ]
 
-MIDDLEWARE = [
+MIDDLEWARE = [ 
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
@@ -133,3 +135,5 @@ ACCOUNT_ACTIVATION_DAYS = 7 # One-Week Activation Expiry
 REGISTRATION_AUTO_LOGIN = True # Automatically Log the User In.
 SITE_ID = 1
 LOGIN_REDIRECT_URL = '/'
+
+django_heroku.settings(locals())
