@@ -129,7 +129,8 @@ STATICFILES_DIRS = [
 ]
 STATIC_ROOT = os.path.join(BASE_DIR, "staticfiles")
 
-
+MEDIA_URL = '/media/'
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 
 ACCOUNT_ACTIVATION_DAYS = 7 # One-Week Activation Expiry
 REGISTRATION_AUTO_LOGIN = True # Automatically Log the User In.
