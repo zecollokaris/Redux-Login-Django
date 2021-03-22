@@ -15,7 +15,7 @@ from django.contrib.auth.decorators import login_required
 #################################################################################################################################################################################
 
 #Home page view function
-@login_required
+
 def index(request):
 	title = 'Welcome: This is the Home Page'
 	context = {
