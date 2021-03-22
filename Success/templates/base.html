@@ -2,7 +2,6 @@
 {% load i18n %}
 
 {% trans "Log in" %}
-{%load bootstrap4 %}
 {% load static %}
 <html>
 <head>
@@ -12,7 +11,7 @@
     <title> Django Login</title>
 
     {%block styles%}
-    {%bootstrap_css%}
+
     <link rel="stylesheet" href="{% static 'css/management.css' %}">
     <link rel="stylesheet" href="{% static 'css/navbar.css' %}">
     {% endblock %}
@@ -35,7 +34,7 @@
 
 
 <script src="{% static 'js/App.js' %}"></script> 
-{% bootstrap_javascript %} 
+
 {% endblock %}
 </body>
 </html>
