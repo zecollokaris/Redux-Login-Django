@@ -5,6 +5,7 @@
     <meta charset="utf-8">
     <title> Login</title>
     {%block styles%}
+    {%bootstrap_css%}
     <link rel="stylesheet" href="{%static 'css/Success.css'%}">
     <link rel="stylesheet" href="{% static 'css/navbar.css' %}">
     <script src="{% static 'js/App.js' %}"></script> 
@@ -16,6 +17,7 @@
 {%block content%}
 {% endblock %}
 {% block scripts %}
+{% bootstrap_javascript %} 
 {% endblock %}
 </body>
 </html>
